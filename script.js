@@ -13,5 +13,5 @@ let displayBoard = function(){
 }
 
 const randomizeNumber = function(event){
-    alert("you go giiirl")
+    
 }
