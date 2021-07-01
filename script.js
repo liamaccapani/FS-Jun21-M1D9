@@ -11,3 +11,7 @@ let displayBoard = function(){
         cellsContainerNode.appendChild(newCellNode)
     }
 }
+
+const randomizeNumber = function(event){
+    alert("you go giiirl")
+}
