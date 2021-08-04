@@ -11,7 +11,7 @@
         - Let the user choose HOW MANY user boards he's willing to play with and create them.
     -->
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>LET'S PLAY BINGO</h1>
@@ -20,8 +20,15 @@
     </div>
 
     <div>
-      <button id="random-num" onclick="randomizeNumber(event)">Click to play!</button>
+      <button id="random-num">Click to play!</button>
     </div>
+
+    <div>
+      <ul id="played-numbers">
+
+      </ul>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
